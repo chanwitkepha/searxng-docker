@@ -1,0 +1,27 @@
+use_default_settings:
+  engines:
+    keep_only:
+      - bing
+
+general:
+  debug: false
+  instance_name: "Private SearXNG"
+
+search:
+  safe_search: 0
+  autocomplete: ""
+  formats:
+    - html
+    - json
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  base_url: "http://10.8.0.1:18080/"
+  secret_key: "local-private-instance"
+  limiter: false
+  image_proxy: false
+
+engines:
+  - name: bing
+    disabled: false
