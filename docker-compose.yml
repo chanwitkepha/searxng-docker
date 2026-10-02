@@ -3,7 +3,8 @@ name: searxng
 services:
   searxng:
     container_name: searxng
-    image: docker.io/searxng/searxng:2026.3.29-7ac4ff39f
+    image: searxng/searxng:2026.9.30-a9d990033
+#   image: docker.io/searxng/searxng:2026.3.29-7ac4ff39f
     restart: unless-stopped
 
     ports:

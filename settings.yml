@@ -2,6 +2,7 @@ use_default_settings:
   engines:
     keep_only:
       - bing
+      - google
 
 general:
   debug: false
@@ -24,4 +25,7 @@ server:
 
 engines:
   - name: bing
+    disabled: false
+
+  - name: google
     disabled: false
